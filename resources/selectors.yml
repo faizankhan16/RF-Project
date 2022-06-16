@@ -1,0 +1,23 @@
+# open a gallery
+browser:                    headlesschrome
+Gallery_url:                
+Video_Url:                  
+Calendar_Url:               
+Material_Demo_Url:          
+Video_title:                Robot 8.0 Video Single MOV 480p NASA KSC STS-132 Launch.mov 2022-05-26 05:37:40
+Video_player:               css = .c-mmp__big_play_btn .ico-play
+Calendar_icon:              css = [class="label"]
+Previous_month:             css = .button--month_prev  .button_inner
+date:                       xpath = //a[contains(., "12")]
+Selected_date:              Tuesday 12 April 2022
+Combo_Box:                  css = [id="combo-box-demo"]
+Combo_Box_Option:           css = [aria-activedescendant="combo-box-demo-option-2"]   
+
+img01:                      css = [alt="Caption 2022-05-16 19:30:14 1"]
+img02:                      css = [alt="Caption 2022-05-16 19:30:14 2"]
+img03:                      css = [alt="Caption 2022-05-16 19:30:14 3"]
+img04:                      css = [alt="Caption 2022-05-16 19:30:14 4"]
+img05:                      css = [alt="Caption 2022-05-16 19:30:14 5"]
+img06:                      css = [alt="Caption 2022-05-16 19:30:14 6"]
+Accept_Cookies:             xpath = (//button[contains(text(), 'Accept')])[1]
+Load_More_Button:           css = [class="btn link-showMore btn__text"]
